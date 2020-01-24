@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Quotation Generator</title>
+    <meta charset="utf-8">
+    <link href="./css/style.css" rel="stylesheet" title="Default Style">
+    <!--bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <button onclick="getQuote()">Random Quote</button>
+            </div>
+            <div class="col-3">
+                <label>Select Number:</label>
+                <select class="number">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="col-7">
+                <label>Select Category:</label>
+                <select class="category">
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option>Mafia</option>
+                    <option>Pirate</option>
+                </select>
+
+
+            </div>
+        </div>
+        <div class="quote-container">
+
+        </div>
+
+    </div>
+
+
+
+    <!--  jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+
+</html>
