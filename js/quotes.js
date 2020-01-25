@@ -1,10 +1,3 @@
-
-
- 
-
-
-
-
  const quotes = {
     "pirate": [
         ["I shall shoot that ", "A wise cap'n keeps only ", "Rob that foul ",  "A wise blaggard keeps only ", "May I always be plunderin' an' ", "I'm yer plank monkey, an' yer ", "I care not for",  "Snatch that disloyal ", "Keelhaul that fancy ", "Curse th' " ],

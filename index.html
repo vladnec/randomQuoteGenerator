@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Quotation Generator</title>
+    <title>Quote Generator</title>
     <meta charset="utf-8">
     <link href="./css/style.css" rel="stylesheet" title="Default Style">
     <!--bootstrap-->
@@ -9,10 +9,16 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container mt-5">
+        <div class="row mt-5 ">
+            <div class="col-xs-12 mt-5 text-center mx-auto">
+                <h1>Random Quote Generator</h1>
+            </div>
+        </div>
+
+        <div class="row mt-5">
             <div class="col-2">
-                <button onclick="getQuote()">Random Quote</button>
+                <button onclick="getQuote()">Generate Quote</button>
             </div>
             <div class="col-3">
                 <label>Select Number:</label>
@@ -27,12 +33,17 @@
             <div class="col-7">
                 <label>Select Category:</label>
                 <select class="category">
-                    <option value="" selected disabled hidden>Choose here</option>
+                    <option >Random</option>
                     <option>Mafia</option>
                     <option>Pirate</option>
                 </select>
 
-
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h5 class="mt-5 mx-auto category-title text-center">You'll get random quotes</h5>
+                <img class="mx-auto category-image d-block" width="100px" height="150px" src="./img/random.jfif"/>
             </div>
         </div>
         <div class="quote-container">
