@@ -76,5 +76,4 @@ function getQuote(){
         //  append to DOM
         addToDOM(str);
     }
-
 }

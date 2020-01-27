@@ -1,3 +1,41 @@
 h1 {
-    color:red;
+    color:#565656;
+}
+
+button {
+    background-color:#95d6c9;
+    padding-left:30px;
+    padding-right:30px;
+    /* position: relative; */
+    font-weight: 700;
+    font-size: 1.125rem;
+    min-height: 40px;
+    max-width: 250px;
+    max-height: 60px;
+    width: 250px;
+    border: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #565656;
+    line-height: 1.125rem;
+    cursor: pointer;;
+}
+.button-container{
+    align-self: center;
+}
+
+img {
+    width:150px;
+    height:150px;
+}
+
+select{
+    width: 120px;
+    height: 30px;
+    border: 1px solid #565656;
+    font-size: 18px;
+    color: #565656;
+    background-color: #95d6c9;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
 }
