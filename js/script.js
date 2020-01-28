@@ -49,7 +49,10 @@ document.querySelector(".category").addEventListener("change", function(){
 
 
 
-function getQuote(){
+function getQuote(e){
+    if(e.target.disabled === true ) {
+        return;
+    };
     clearList();
     // select type of Quote 
     let categoryOfQuotes = getFilter("category").toLowerCase() || null;
@@ -75,5 +78,11 @@ function getQuote(){
         }
         //  append to DOM
         addToDOM(str);
+        document.getElementById("exit").removeAttribute("hidden");
     }
 }
+
+document.getElementById("exit").addEventListener("click", function(){
+    document.getElementById("genQuote").setAttribute("disabled", "true");
+    this.setAttribute("hidden", "true")
+});
